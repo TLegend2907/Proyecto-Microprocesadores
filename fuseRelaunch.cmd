@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/parallels/Documentos/microAP/testproy_isim_beh.exe" -prj "/home/parallels/Documentos/microAP/testproy_beh.prj" "work.testproy" 

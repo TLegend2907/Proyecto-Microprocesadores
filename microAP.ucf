@@ -1,0 +1,41 @@
+# =====================================================
+# RELOJ
+# =====================================================
+net "clk" LOC="E3" | IOSTANDARD="LVCMOS33";
+
+# =====================================================
+# BOTONES
+# reset  → BTNC
+# ini    → BTNL (play/pause)
+# =====================================================
+net "reset" LOC="P17" | IOSTANDARD="LVCMOS33";
+net "ini"   LOC="M17" | IOSTANDARD="LVCMOS33";
+
+# =====================================================
+# SWITCHES
+# bt(0) = cinit  → inicialización aleatoria o en cero
+# bt(1) = op     → grano aleatorio o en el centro
+# bt(2) = gran  - granos aleatorios(cantidad)
+ # =====================================================
+net "bt<0>" LOC="J15" | IOSTANDARD="LVCMOS33";
+net "bt<1>" LOC="R15" | IOSTANDARD="LVCMOS33";
+net "bt<2>" LOC="M13" | IOSTANDARD="LVCMOS33";
+
+# =====================================================
+# VGA
+# =====================================================
+net "hsync" LOC="B11" | IOSTANDARD="LVCMOS33";
+net "vsync" LOC="B12" | IOSTANDARD="LVCMOS33";
+
+net "rgb<0>"  LOC="B7" | IOSTANDARD="LVCMOS33";
+net "rgb<1>"  LOC="C7" | IOSTANDARD="LVCMOS33";
+net "rgb<2>"  LOC="D7" | IOSTANDARD="LVCMOS33";
+net "rgb<3>"  LOC="D8" | IOSTANDARD="LVCMOS33";
+net "rgb<4>"  LOC="C6" | IOSTANDARD="LVCMOS33";
+net "rgb<5>"  LOC="A5" | IOSTANDARD="LVCMOS33";
+net "rgb<6>"  LOC="B6" | IOSTANDARD="LVCMOS33";
+net "rgb<7>"  LOC="A6" | IOSTANDARD="LVCMOS33";
+net "rgb<8>"  LOC="A3" | IOSTANDARD="LVCMOS33";
+net "rgb<9>"  LOC="B4" | IOSTANDARD="LVCMOS33";
+net "rgb<10>" LOC="C5" | IOSTANDARD="LVCMOS33";
+net "rgb<11>" LOC="A4" | IOSTANDARD="LVCMOS33";

@@ -1,0 +1,7 @@
+work	"ASM.vhd"
+work	"GU.vhd"
+work	"MAE.vhd"
+work	"ipcore_dir/mem.vhd"
+work	"proy1.vhd"
+work	"proyecto1pack.vhd"
+work	"vgac.vhd"

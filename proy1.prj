@@ -1,0 +1,8 @@
+vhdl work "ipcore_dir/memi_val.vhd"
+vhdl work "ipcore_dir/memi_av.vhd"
+vhdl work "PRNG.vhd"
+vhdl work "ASM.vhd"
+vhdl work "vgac.vhd"
+vhdl work "MAE.vhd"
+vhdl work "GU.vhd"
+vhdl work "proy1.vhd"

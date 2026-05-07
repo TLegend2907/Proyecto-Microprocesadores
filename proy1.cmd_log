@@ -1,0 +1,31 @@
+xst -intstyle ise -ifn "/home/ise/xilinx/microAPW_artix/microAPW_artix/proy1.xst" -ofn "/home/ise/xilinx/microAPW_artix/microAPW_artix/proy1.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc microAP.ucf -p xc7a100t-csg324-3 proy1.ngc proy1.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o proy1_map.ncd proy1.ngd proy1.pcf 
+par -w -intstyle ise -ol high -mt off proy1_map.ncd proy1.ncd proy1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml proy1.twx proy1.ncd -o proy1.twr proy1.pcf -ucf microAP.ucf 
+bitgen -intstyle ise -f proy1.ut proy1.ncd 
+xst -intstyle ise -ifn "/home/ise/xilinx/microAPW_artix/microAPW_artix/proy1.xst" -ofn "/home/ise/xilinx/microAPW_artix/microAPW_artix/proy1.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc microAP.ucf -p xc7a100t-csg324-3 proy1.ngc proy1.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o proy1_map.ncd proy1.ngd proy1.pcf 
+par -w -intstyle ise -ol high -mt off proy1_map.ncd proy1.ncd proy1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml proy1.twx proy1.ncd -o proy1.twr proy1.pcf -ucf microAP.ucf 
+bitgen -intstyle ise -f proy1.ut proy1.ncd 
+xst -intstyle ise -ifn "/home/ise/xilinx/microAPW_artix/microAPW_artix/proy1.xst" -ofn "/home/ise/xilinx/microAPW_artix/microAPW_artix/proy1.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc microAP.ucf -p xc7a100t-csg324-3 proy1.ngc proy1.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o proy1_map.ncd proy1.ngd proy1.pcf 
+par -w -intstyle ise -ol high -mt off proy1_map.ncd proy1.ncd proy1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml proy1.twx proy1.ncd -o proy1.twr proy1.pcf -ucf microAP.ucf 
+bitgen -intstyle ise -f proy1.ut proy1.ncd 
+xst -intstyle ise -ifn "/home/ise/xilinx/microAPW_artix/microAPW_artix/proy1.xst" -ofn "/home/ise/xilinx/microAPW_artix/microAPW_artix/proy1.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc microAP.ucf -p xc7a100t-csg324-3 proy1.ngc proy1.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o proy1_map.ncd proy1.ngd proy1.pcf 
+par -w -intstyle ise -ol high -mt off proy1_map.ncd proy1.ncd proy1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml proy1.twx proy1.ncd -o proy1.twr proy1.pcf -ucf microAP.ucf 
+bitgen -intstyle ise -f proy1.ut proy1.ncd 
+xst -intstyle ise -ifn "/home/ise/xilinx/microAPW_artix/microAPW_artix/proy1.xst" -ofn "/home/ise/xilinx/microAPW_artix/microAPW_artix/proy1.syr" 
+xst -intstyle ise -ifn "/home/ise/xilinx/microAPW_artix/microAPW_artix/proy1.xst" -ofn "/home/ise/xilinx/microAPW_artix/microAPW_artix/proy1.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc microAP.ucf -p xc7a100t-csg324-3 proy1.ngc proy1.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o proy1_map.ncd proy1.ngd proy1.pcf 
+par -w -intstyle ise -ol high -mt off proy1_map.ncd proy1.ncd proy1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml proy1.twx proy1.ncd -o proy1.twr proy1.pcf -ucf microAP.ucf 
+bitgen -intstyle ise -f proy1.ut proy1.ncd 

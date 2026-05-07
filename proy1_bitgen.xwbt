@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/xilinx/microAPW_artix/microAPW_artix/proy1.ncd
+OUTFILE=/home/ise/xilinx/microAPW_artix/microAPW_artix/proy1.bit
+FAMILY=Artix7
+PART=xc7a100t-3csg324
+WORKINGDIR=/home/ise/xilinx/microAPW_artix/microAPW_artix
+LICENSE=ISE
+USER_INFO=8416_11442_1478797146_620
